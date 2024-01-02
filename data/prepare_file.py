@@ -1,4 +1,7 @@
 """
+Will open up a pytho file and split out all functions into chunks
+with relevent data for embedding
+
 To use: Open up a file and store its contents as `code_string`:
 with open("RAG-accelerate/src/accelerator.py", "r") as w:
     code_string = w.read()
