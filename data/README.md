@@ -37,4 +37,12 @@ Using `regex` in VSCODE, use the following replacement:
 <!--Copyright(.*\n)+-->
 ```
 
+In the source:
+```regex
+    """
+
+    
+```
 Then remove all import statements (as we only care about the content).
+
+**WARNING**: It is known that this will seperate out the `_inner()` in the source code and use it as a seperate function losing the context. Trying out with this issue for now. 
