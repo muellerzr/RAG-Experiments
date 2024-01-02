@@ -1,2 +1,2 @@
 # RAG-Experiments
-My learnings (publically) on RAG systems
+My learnings (publicly) on RAG systems
